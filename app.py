@@ -17,7 +17,7 @@ def predict():
     df = pd.read_csv("data/Youtube01-Psy.csv")
 
     # Features and Labels
-    df_x = df['CONTENT']
+    df_x = df.CONTENT
     df_y = df.CLASS
 
     # TFIDF
